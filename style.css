@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+}
+.place{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.place .all-coursrs{
+    margin: 0;
+    padding: 0;
+}
+/* Header CSS Code Start */
+.header-section{
+    width: 100%;
+}
+.continer{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-section .continer .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section .continer .navbar .logo img{
+    width: 150px;
+    margin: 10px 0px;
+}
+.header-section .continer .navbar .menu ul li{
+    list-style-type: none;
+    text-transform:capitalize;
+    font-size: 16px;
+    display: inline-block;
+    color: #1e266d;
+    font-weight: 400;
+    padding: 15px 10px;
+}
+.header-section .continer .navbar .btn a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 19px;
+    transition: all 0.4s ease;
+}
+.header-section .continer .navbar .btn .signin , .header-section .continer .navbar .btn .signup{
+    background-color: #1e266d;
+    color: white;
+    padding: 8px 20px;
+
+}
+.header-section .continer .navbar .btn .signin:hover, .header-section .continer .navbar .btn .signup:hover{
+    background-color:#0071cc;
+}
+/* Header CSS Code End */
+/* Place-Section CSS Code Start */
+.place-pection{
+    width: 100%;
+}
+.place-section .continer .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+.place-section .continer .navbar .text{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.place-section .continer .navbar .place{
+    border: 1px solid rgb(240, 240, 240);
+    padding: 8px;  
+    margin: 0;   
+}
+.place-section .continer .navbar .place .all-coursrs{
+    color: black;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+    padding: 9px 10px 9px 10px;
+}
+.place-section .continer .navbar .place .banani{
+    color: black;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+    padding: 9px 10px 9px 10px;
+}
+.place-section .continer .navbar .place .mirpur{
+    color: black;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+    padding: 9px 10px 9px 10px;
+}
+.place-section .continer .navbar .place .online{
+    color: black;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+    padding: 9px 10px 9px 10px;
+}
+.place-section .continer .navbar .place .all-coursrs:hover{
+    background-color: #1e266d;
+    color: white;
+}
+.place-section .continer .navbar .place  .banani:hover{
+
+    background-color: #1e266d;
+    color: white;
+}
+.place-section .continer .navbar .place .mirpur:hover{
+
+    background-color: #1e266d;
+    color: white;
+}
+.place-section .continer .navbar .place .online:hover{
+    background-color: #1e266d;
+    color: white;
+}
+.banani-c{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 20px 0 30px;
+    color: #1e266d;
+}
+/* Place-Section CSS Code End */
+/* Our Courses CSS Code Start */
+.our-courses{
+    width: 100%;
+}
+.our-courses .continer .flex-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: -15px;
+}
+.our-courses .continer .flex-box .box-1{
+    width: 215px;
+    background-color: #f7f7f7;
+    padding: 40px 0px 40px;
+    border-radius: 5px;
+   
+}
+
+.our-courses .continer .flex-box .box-1 img{
+    width: 80px;
+}
+.our-courses .continer .flex-box .box-2{
+    width: 215px;
+    background-color: #f7f7f7;
+    padding: 40px 0px 40px;
+    border-radius: 5px;
+}
+.our-courses .continer .flex-box .box-2 img{
+    width: 80px;
+}
+.our-courses .continer .flex-box .box-3{
+    width: 215px;
+    background-color: #f7f7f7;
+    padding: 40px 0px 40px;
+    border-radius: 5px;
+}
+.our-courses .continer .flex-box .box-3 img{
+    width: 80px;
+}
+.our-courses .continer .flex-box .box-4{
+    width: 215px;
+    background-color: #f7f7f7;
+    padding: 40px 0px 40px;
+    border-radius: 5px;
+}
+.our-courses .continer .flex-box .box-4 img{
+    width: 80px;
+}
+.our-courses .continer .flex-box .box-5{
+    width: 215px;
+    background-color: #f7f7f7;
+    padding: 40px 0px 40px;
+    border-radius: 5px;
+}
+.our-courses .continer .flex-box .box-5 img{
+    width: 80px;
+}
+.continer .mcoc{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 20px 0 30px;
+    color: #1e266d;
+    margin: 15px 0px;
+    line-height: 90px;
+}
+/* Our Courses CSS Code End  */
+/* Ofline CSS Code Start  */
+.offline{
+    widows: 100%;
+}
+.offline .continer .flex-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+.offline .continer .flex-box .box-1,
+.offline .continer .flex-box .box-2,
+.offline .continer .flex-box .box-3{
+    width: 350px;
+    position: relative;
+}
+.offline .continer .flex-box .box-1 .text,
+.offline .continer .flex-box .box-2 .text,
+.offline .continer .flex-box .box-3 .text{
+    position: absolute;
+    background:#feb52b;
+    color: white;
+    padding: 8px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: 22px;
+    font-size: 18px;
+}
+.continer .ooc{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 20px 0 30px;
+    color: #1e266d;
+    margin: 15px 0px;
+}
+/* Ofline CSS Code End  */
+/* Online CSS Code Start */
+.online{
+    widows: 100%;
+}
+.online .continer .flex-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.online .continer .flex-box .box-1,
+.online .continer .flex-box .box-2,
+.online .continer .flex-box .box-3{
+    width: 350px;
+    position: relative;
+}
+.online .continer .flex-box .box-1 .text,
+.online .continer .flex-box .box-2 .text,
+.online .continer .flex-box .box-3 .text{
+    position: absolute;
+    background:#4fc68d;
+    color: white;
+    padding: 8px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: 22px;
+    font-size: 18px;
+}
+.ms-excel{
+    margin-bottom: 80px;
+}
+.ms-excel .continer .box-1{
+    position: relative;
+}
+.ms-excel .continer .box-4 .text{
+    position: absolute;
+    background:#4fc68d;
+    color: white;
+    padding: 8px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 315px;
+    font-size: 18px;
+
+}
+.continer .ooc{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 20px 0 30px;
+    color: #1e266d;
+    margin: 15px 0px;
+}
+/* Online CSS Code End  */
+/* Online CSS Code Start */
+.video{
+    widows: 100%;
+}
+.video .continer .flex-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.video .continer .flex-box .box-1,
+.video .continer .flex-box .box-2,
+.video .continer .flex-box .box-3{
+    width: 350px;
+    position: relative;
+}
+.video .continer .flex-box .box-1 .text,
+.video .continer .flex-box .box-2 .text,
+.video .continer .flex-box .box-3 .text{
+    position: absolute;
+    background:#4fc68d;
+    color: white;
+    padding: 8px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    right: 22px;
+    font-size: 18px;
+}
+.continer .ooc{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    padding: 20px 0 30px;
+    color: #1e266d;
+    margin: 15px 0px;
+}
+/* Online CSS Code End  */
+/* Address CSS Code Start */
+.address{
+    width: 100%;
+}
+.address .continer .navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #1e266d;
+    padding: 100px 60px 80px 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 40px;
+}
+/* Adress CSS Code End  */
+/* More CSS Code Start */
+.more{
+    width: 100%;
+    margin: 80px 0px 40px;
+}
+.more .continer .flex-box{
+    display: flex;
+}
+.more .continer .flex-box .box-1,.more .continer .flex-box .box-2{
+    flex-basis: 50%;
+    line-height: 30px;
+}
+.more .continer .flex-box .box-2{
+    margin-left: 100px;
+}
+.more .continer .flex-box .box-3,.more .continer .flex-box .box-4{
+    flex-basis: 50%;
+    margin-left: 100px;
+    line-height: 30px;
+}
+.more .continer .flex-box .box-1 span,.more .continer .flex-box .box-2 span,.more .continer .flex-box .box-3 ul li h5,.more .continer .flex-box .box-4 ul li h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0071cc;
+}
+/* More CSS Code End  */
+.fimg img{
+    width: 95%;
+    text-align: center;
+    margin-bottom: 30px;
+}
